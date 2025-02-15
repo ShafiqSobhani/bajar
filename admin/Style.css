@@ -1,0 +1,165 @@
+#navbar{
+
+    animation: margin 5s infinite;
+}
+
+
+@keyframes margin{
+    0% { border-color: aqua;}
+    25% { border-color: rgb(17, 0, 255);}
+    50% { border-color: rgb(165, 253, 22);}
+    100% { border-color: red;}
+   
+}
+
+#panl{
+    color: aqua; 
+
+}
+
+
+ #body{background-image: url(../Image/login5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+
+#login{padding: 10px;
+    margin-top: 50px;
+    background-color: hsla(177, 86%, 35%, 0.356);
+    border-radius: 10px;
+    color: aqua;
+    margin-top: 10px;
+    margin-left: -7px;
+    animation: margin 8s infinite;
+
+   }
+
+#log{
+    text-align: right;
+
+}
+#dash{  
+    background-color: hsla(190, 82%, 29%, 0.219);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 575px;
+    padding: 7px;
+    color: rgb(121, 6, 6);
+
+ 
+}
+
+
+
+
+   
+#admn{
+    margin-top: 50px;
+    background-color: hsla(190, 92%, 5%, 0.815);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(233, 18, 186);
+}
+
+#hDive{
+    padding: 10px;
+    border-bottom: 7px solid;
+    animation: mymove 3s infinite;
+    color: aqua;
+    background-color: rgb(12, 134, 241);
+
+}
+
+@keyframes mymove{
+    0% { border-bottom-color: red;}
+    25% { border-bottom-color: rgb(37, 230, 11);}
+    50% { border-bottom-color: rgb(24, 57, 245);}
+    100% { border-bottom-color: rgb(5, 230, 238);}
+   
+}
+
+#title{ background-color: aquamarine;
+    color: black;
+    border-bottom: 2px slid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0 0 ;
+
+}
+
+
+#list{list-style-type: none;
+    display: block;
+    background-color: rgb(241, 151, 33);
+    color: black;
+    padding: 0px;
+    
+    
+}
+
+#nav li a {display: block;
+    border: 1px solid black;
+    padding: 4px;
+    color: black;
+}
+#list :hover {
+    display: block;
+    background-color: azure;
+    color: red;
+    border-left: 3px solid red;
+   
+}
+
+
+#dashBoard{
+    text-align: center;
+    display: block;
+    background-color: rgb(7, 59, 59);
+    color:  rgb(63, 236, 236);
+    border-left: 5px solid rgb(231, 53, 8);
+    margin-right: 5px;
+
+}
+
+#mad{
+    width: 100%;
+}
+#scenario{
+    text-align: center;
+    display: block;
+    background-color: rgb(63, 236, 236);
+    color: black;
+    margin: 3px;
+
+}
+
+#board{
+    margin-top: -25px;
+  
+}
+
+#h4{
+    color: aqua;
+}
+
+#Adress{background-color: blanchedalmond;
+    color: brown;
+
+}
+
+#Adrs{
+    background-color: blueviolet;
+}
+
+#topline{
+    border-top: 2px solid black;
+    text-align: left;
+}
+
+#table{
+    border-color: black;
+    background-color: aqua;
+}
+
+

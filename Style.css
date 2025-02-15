@@ -1,0 +1,53 @@
+#navbar{
+    border-width: 2px;
+    position: fixed;
+    animation: margin 3s infinite;
+    
+}
+
+
+
+@keyframes margin{
+    0% { border-color: aqua;}
+    25% { border-color: rgb(17, 0, 255);}
+    50% { border-color: rgb(165, 253, 22);}
+    100% { border-color: red;}
+}
+
+#divborder{
+    border-width: 2px;
+    border-color: black;
+}
+
+#price{
+    text-decoration: line-through;
+    color: red;
+}
+#navbar :hover{
+    text-decoration: overline;
+    color: aqua;
+}
+
+
+#contact{
+   color: rgb(97, 6, 6);
+   text-align: center;
+}
+
+
+
+
+
+/* Fixed navbar */
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Space for the fixed navbar */
+body {
+    padding-top: 100px; /* Adjust this value according to your navbar height */
+}
+
